@@ -1,0 +1,99 @@
+.navbar {
+  padding: 30px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+}
+
+
+.navbar-left {
+  display: flex;
+  justify-content: left;
+  padding: 20px 0 20px 0;
+  flex-direction: column;
+}
+
+.navbar-left img {
+  width: 20vw;
+  height: auto;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 0;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.navbar-right .navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  color: black;
+  font-size: 3vw;
+  font-weight: 400;
+  border-bottom: 1px solid transparent;
+  padding-right: 80px;
+}
+
+
+
+.navbar button {
+  background: transparent;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3;
+
+}
+
+.navbar button:hover {
+  background-color: antiquewhite;
+}
+
+.navbar-menu .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(44, 41, 41);
+  cursor: grabbing;
+}
+
+.navbar-menu:hover {
+  cursor: grab;
+}
+
+@media (max-width:1050px){
+  .navbar .logo{
+    width: 140px;
+  }
+  .navbar-menu {
+    font-size: 15px;
+    padding-left: 50px;
+    width: 1000px;
+    gap: 0;
+
+  }
+  .navbar-right{
+    gap: 10px;
+  }
+  .navbar-right img{
+    width: 22px;
+  }
+  .navbar-right .navbar-menu{
+    gap: 20px;
+  }
+  
+}
+
+
+
+@media (max-width:750px){
+  .navbar-menu {
+    display: none;
+  }
+  
+}
