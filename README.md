@@ -1,8 +1,3 @@
-# React + Vite
+This project is a custom-built website created for a family member to enhance the online presence of their restaurant.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*I'm sure there are quite a few errors in the code especially clunky-ness and also unncessary code that shouldn't be there/isn't being used. I completed this project under a bit of pressure, with just two days to build both the website and my portfolio. My goal was to showcase my front-end development skills on my resume and also help a family member by providing them with a much-needed website.
