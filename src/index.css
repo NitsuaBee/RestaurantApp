@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+
 }
 body {
   width: 100%;
@@ -17,8 +18,16 @@ a {
 }
 
 .app {
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
+  overflow-x: hidden;
+}
+
+.header-app{
+  margin: 0 30px;
+  padding: 0 40px;
+  width: 80%;
+  overflow-x: hidden;
 }
 
 @keyframes fadeIn {
@@ -32,4 +41,16 @@ a {
 
 hr {
   border-top: 2px solid black;
+}
+
+@media (max-width: 1050px) {
+    .app {
+      margin: 0 auto;
+    }
+    .header-app{
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 }

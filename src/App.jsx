@@ -11,9 +11,11 @@ import Header from './components/Header/Header';
 export const App = () => {
   return (
     <>
-      <div className="app">
+      <div className='header-app'>
         <Navbar/>
+      </div>
       <hr/>
+      <div className="app">
         <Routes>
           < Route path='/' element ={<Home/>} />
           < Route path='/Menu' element={<MenuOptions/>} />
